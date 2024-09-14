@@ -173,7 +173,8 @@ body.dark-theme {
 }
 
 .profile__perfil img {
-  width: 90%;
+  width: 100%;
+  /* 保持图片宽度为容器的xx% */
 }
 
 .profile__border {
