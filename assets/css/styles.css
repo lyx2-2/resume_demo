@@ -11,10 +11,10 @@
       Pink: hsl(356, 66%, 75%)
       Teal: hsl(174, 63%, 62%)
   */
-  --color: hsl(22, 45%, 64%);
-  --hue: 22;
+  --color: hsl(0, 45%, 74%);
+  --hue: 0;
   --sat: 45%;
-  --lig: 64%;
+  --lig: 74%;
   --first-color: hsl(var(--hue), var(--sat), var(--lig));
   --first-color-alt: hsl(var(--hue), var(--sat), 57%);
   /* -4% */
@@ -165,7 +165,7 @@ body.dark-theme {
   background: linear-gradient(180deg,
       hsla(var(--hue), var(--sat), var(--lig), 1) 0%,
       hsla(var(--hue), var(--sat), var(--lig), 0.2) 100%);
-  border-radius: 20%;
+  border-radius: 50%;
   overflow: hidden;
   display: flex;
   align-items: flex-end;
@@ -185,7 +185,7 @@ body.dark-theme {
   justify-self: center;
   width: 115px;
   height: 115px;
-  border-radius: 20%;
+  border-radius: 50%;
   display: grid;
   place-items: center;
   margin-bottom: 0.75rem;
